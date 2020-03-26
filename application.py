@@ -32,3 +32,6 @@ html_children = [
   )
 ]
 app.layout = html.Div(children=html_children)
+
+if __name__ == '__main__':
+  application.run(debug=True, port=8080)
